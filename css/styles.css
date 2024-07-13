@@ -551,7 +551,7 @@ ul {
     background-color: transparent;
     width: 24px;
     height: 24px;
-    border-radius: 100%;
+    border-radius: 50%;
     fill: #e7e9fc;
     stroke-width: 1px;
     stroke: rgba(0, 0, 0, 0.1);
