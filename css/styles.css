@@ -4,7 +4,8 @@
     --row-indent: var(--col-indent);
     --accent-color: #404bbf;
     --mainblue-color: #4d5ae5;
-    --darkblue-color: 46, 47, 66;
+    --darkblue-color: #2e2f42;
+    --modalbg-color: 46, 47, 66;
     --darkwhite-color: #f4f4fd;
     --greymodal-color: #2E2F42;
 }
@@ -512,7 +513,7 @@ ul {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(var(--darkblue-color), 0.4);
+    background-color: rgba(var(--modalbg-color), 0.4);
 
     opacity: 0;
     pointer-events: none;
