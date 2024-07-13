@@ -487,6 +487,7 @@ ul {
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
+    color: #fff;
 }
 
 .footer-subsribe-icon {
@@ -633,7 +634,7 @@ ul {
     left: 16px;
     transform: translateY(-50%);
     fill: var(--darkblue-color);
-    transition-property: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-input:focus + .modal-form-icon {
     fill: var(--mainblue-color);
@@ -665,6 +666,9 @@ ul {
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
 }
+.modal-textarea {
+    margin-bottom: 16px;
+}
 /* MF Terms and Conditions */
 .modal-form-agreement {
     margin-bottom: 24px;
@@ -691,8 +695,9 @@ ul {
     fill: var(--darkwhite-color);
 }
 .agreement-input:checked + .modal-form-terms > .modal-form-checkbox {
-    border-color: var(--accent-color);
+    border: none;
     background-color: var(--accent-color);
+    fill: var(--darkwhite-color);
 }
 .modal-form-link {
     color: var(--mainblue-color);
