@@ -686,7 +686,7 @@ ul {
     fill: none;
 }
 .agreement-input:checked+.modal-form-terms>.modal-form-checkbox .modal-form-checkbox-icon {
-    border-color: var(--accent-color);
+    border: none;
     background-color: var(--accent-color);
     fill: var(--darkwhite-color);
 }
